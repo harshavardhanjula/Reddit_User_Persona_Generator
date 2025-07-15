@@ -1,0 +1,3 @@
+praw
+openrouter
+python-dotenv
