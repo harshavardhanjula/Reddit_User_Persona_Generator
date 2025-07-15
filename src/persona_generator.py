@@ -25,12 +25,12 @@ class PersonaGenerator:
         
         return f"""#You are an expert **social behavior analyst AI** specializing in digital personalities. Using structured Reddit user data, your task is to generate a **captivating and nuanced persona profile** that goes beyond basic facts. This profile should resemble a well-crafted character study, highlighting the essence of the user’s online identity and personality.
 
-### **📋 Input Data**
+### **Input Data**
 ```
 {data_str}
 ```
 
-### **🔧 Persona Creation Guidelines**
+### **Persona Creation Guidelines**
 1. **Narrative Focus:** Craft an engaging narrative that tells the story of the user’s online personality, habits, and behaviors.
 2. **Personality Insights:** Capture their distinct traits, including tone (e.g., sarcastic, helpful) and communication style.
 3. **Behavior Patterns:** Infer patterns, interests, and subreddit habits from their data, but avoid quoting or referencing specific posts.
@@ -41,7 +41,7 @@ class PersonaGenerator:
 8. **Motivations & Frustrations:** Analyze what drives or annoys them in their online interactions.
 9. **Fluid Style:** Maintain a smooth and engaging tone, like a thoughtful social researcher.
 
-### **📋 Output Requirements**
+### **Output Requirements**
 - **Persona Header:** Use the Reddit username as the header.
 - **Tagline:** A concise, expressive summary of their online identity.
 - **Narrative Overview:** A descriptive profile of who they are on Reddit.
